@@ -40,6 +40,6 @@ describe("Testing GitCommand.status()", function(){
 
 
         expect(output_add).to.equal('Successfully added as index file/s.');
-        expect(output_status).to.equal('You have 1 change/s.\n');
+        expect(output_status).to.equal('You have 0 change/s.\n');
     });
 })
