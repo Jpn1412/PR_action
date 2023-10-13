@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - 'feature/*' # This will trigger the workflow on any push to a branch starting with 'feature/'
+      - 'master'
+      - 'develop'
 
 jobs:
   build:
